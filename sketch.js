@@ -71,7 +71,8 @@ function draw() {
     if(keyDown("space")) {
     trex.velocityY = -10;
   }
-  
+  trex.x=camera.position.x
+ 
   trex.velocityY = trex.velocityY + 0.8
   
   if (ground.x < 0){
